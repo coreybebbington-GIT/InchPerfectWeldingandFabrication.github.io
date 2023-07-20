@@ -248,15 +248,24 @@ a:active {
   background-image: linear-gradient(bottom, rgba(255, 239, 206, 0) 0%, rgba(255, 239, 206, 0.25) 100%);
 }
 .btn-main:hover, .btn-main:focus {
-  background-color: #333333;
+  background-color: #8a8a8a;
   color: #fcfcfc;
 }
 
 .btn-main-sm {
-  padding: 12px 35px;
-  text-transform: uppercase;
-  font-size: 14px;
-  font-weight: bold;
+  color: #000;
+  border-radius: 4px;
+  font-size: 18px;
+  padding: 10px 20px;
+  display: inline-block;
+  background-color: #fff;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+  background-image: linear-gradient(bottom, rgba(255, 239, 206, 0) 0%, rgba(255, 239, 206, 0.25) 100%);
+}
+
+.btn-main-sm:hover, .btn-main-sm:focus {
+  background-color: #8a8a8a;
+  color: #fcfcfc;
 }
 
 .btn-outline-light{
