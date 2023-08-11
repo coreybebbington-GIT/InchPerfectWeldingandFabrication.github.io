@@ -1168,5 +1168,5 @@ margin-top: -20vh;
   position: relative;
   overflow: hidden;
   max-height: 100%;
-
+  min-height: 70vh;
  }
